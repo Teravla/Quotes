@@ -21,9 +21,9 @@ function CreateQuote() {
 
     const handleRemoveQuote = () => {
         if (quotes.length > 0) {
-        const updatedQuotes = [...quotes];
-        updatedQuotes.shift();
-        setQuotes(updatedQuotes);
+            const updatedQuotes = [...quotes];
+            updatedQuotes.shift();
+            setQuotes(updatedQuotes);
         }
     };
 
