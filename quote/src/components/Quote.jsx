@@ -13,9 +13,9 @@ function CreateQuote() {
 
     const handleCreateQuote = () => {
         if (newQuote.trim() !== "") {
-        setQuotes([newQuote, ...quotes]);
-        setNewQuote("");
-        setShowPopup(false);
+            setQuotes([newQuote, ...quotes]);
+            setNewQuote("");
+            setShowPopup(false);
         }
     };
 
