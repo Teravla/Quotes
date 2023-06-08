@@ -50,11 +50,16 @@ function CreateQuote() {
             <button onClick={() => handleSortOrder("alphabetical")} className="sort-abc">
                 Tri alphabétique
             </button>
-            {sortedQuotes.map((quote, index) => (
-                <div className="quote-item" key={index}>
-                    <p>{quote}</p>
-                </div>
-            ))}
+            <div className="quote-quote">
+                {sortedQuotes.map((quote, index) => (
+                    <div className="quote-item" key={index}>
+                        <div className="quote-content">
+                            <p>{quote}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
             {showPopup && (
                 <div className="popup">
                 <textarea

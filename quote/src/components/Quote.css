@@ -52,6 +52,9 @@
 /* TRI */
 
 .sort-action {
+    position: absolute;
+    top: 20px;
+    right: 200px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4A62FF;
@@ -60,7 +63,6 @@
     border-radius: 5px;
     cursor: pointer;
     margin: 20px;
-    align-self: flex-end;
 }
 
 .sort-action:hover {
@@ -68,6 +70,9 @@
 }
 
 .sort-abc {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4A62FF;
@@ -76,7 +81,6 @@
     border-radius: 5px;
     cursor: pointer;
     margin: 20px;
-    align-self: flex-end;
 }
 
 .sort-abc:hover {
@@ -84,18 +88,35 @@
 }
 
 
+
 /* CITATIONS */
 
-.quote-item {
-    background-color: #ffc0cb;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+
+.quote-quote {
+    padding-top: 100px;
 }
 
-.quote-item p {
-    margin: 0;
+.quote-item {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.quote-content {
+    border-radius: 23px;
+    box-shadow:  11px -11px 0px #d10000,
+             -11px 11px 0px #ff0000;
+}
+
+.quote-content p {
+    margin: 0;
+    padding: 50px 300px;
+    font-size: 24px;
+}
+
+
 
 
 /* POPUP */
