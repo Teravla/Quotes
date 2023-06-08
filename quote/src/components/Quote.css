@@ -1,0 +1,150 @@
+.quote-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 90px; /* Ajustez cette valeur pour le positionnement horizontal */
+    z-index: 9999;
+    
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background-color: #00FF00;
+    color: white;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.add-button:hover {
+    background-color: #00CC00;
+}
+  
+
+.remove-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Ajustez cette valeur pour le positionnement horizontal */
+    z-index: 9999;
+    
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #EE005F;
+}
+
+/* TRI */
+
+.sort-action {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4A62FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    align-self: flex-end;
+}
+
+.sort-action:hover {
+    background-color: #304DFF;
+}
+
+.sort-abc {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4A62FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    align-self: flex-end;
+}
+
+.sort-abc:hover {
+    background-color: #304DFF;
+}
+
+
+/* CITATIONS */
+
+.quote-item {
+    background-color: #ffc0cb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.quote-item p {
+    margin: 0;
+}
+
+
+/* POPUP */
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.popup textarea {
+    width: 90vw;
+    height: 60vh;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.popup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4A62FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #304DFF;
+}
+
+.create-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4A62FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #304DFF;
+}

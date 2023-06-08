@@ -1,0 +1,23 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header-main {
+    background-color: #4A62FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-main img {
+    max-width: 100px;
+    margin-right: 25px;
+}
+
+.header-main h1 {
+    text-align: center;
+    font-size: 50px;
+}
